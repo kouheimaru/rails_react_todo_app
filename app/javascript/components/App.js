@@ -46,6 +46,8 @@ const Wrapper = styled.div`
   margin: 20px auto;
 `
 
+toast.configure();
+
 function App() {
   return (
     <>

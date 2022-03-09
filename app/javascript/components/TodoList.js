@@ -123,6 +123,8 @@ function TodoList() {
     })
   }
 
+  toast.configure();
+
   return (
     <>
       <h1>Todo リスト</h1>
