@@ -7,6 +7,7 @@ import EditTodo from './EditTodo'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.min.css';
 import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify'
 // import './App.css'
 
 const Nabvar = styled.nav`
