@@ -6,6 +6,7 @@ import TodoList from './TodoList'
 import EditTodo from './EditTodo'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.min.css';
+import 'react-toastify/dist/ReactToastify.css';
 // import './App.css'
 
 const Nabvar = styled.nav`
@@ -48,7 +49,6 @@ const Wrapper = styled.div`
 function App() {
   return (
     <>
-      <ToastContainer />
       <Nabvar>
         <Logo>
           TODOアプリ
@@ -73,6 +73,7 @@ function App() {
           <Route path="/todos/:id/edit" element={<EditTodo />} />
         </Routes>
       </Wrapper>
+      <ToastContainer />
     </>
   )
 }
