@@ -5,6 +5,7 @@ import { toast } from 'react-toastify'
 import { useParams, useLocation, useNavigate} from 'react-router-dom'
 import 'react-toastify/dist/ReactToastify.css'
 import { FiSend } from 'react-icons/fi'
+import 'react-toastify/dist/ReactToastify.min.css';
 
 const InputAndButton = styled.div`
   display: flex;

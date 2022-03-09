@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { useParams, useLocation, useNavigate} from 'react-router-dom'
 import { toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import 'react-toastify/dist/ReactToastify.min.css';
 
 const InputName = styled.input`
   font-size: 20px;

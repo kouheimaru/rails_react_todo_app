@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import AddTodo from './AddTodo'
 import TodoList from './TodoList'
 import EditTodo from './EditTodo'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.min.css';
 // import './App.css'
 
 const Nabvar = styled.nav`
@@ -46,6 +48,7 @@ const Wrapper = styled.div`
 function App() {
   return (
     <>
+      <ToastContainer />
       <Nabvar>
         <Logo>
           TODOアプリ
