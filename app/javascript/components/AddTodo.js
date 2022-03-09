@@ -92,7 +92,7 @@ function AddTodo(props) {
 
   return (
     <>
-      <h1>New Todo</h1>
+      <h1>新規 作成</h1>
       <InputAndButton>
         <InputForName
           type="text"

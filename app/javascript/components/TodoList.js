@@ -122,11 +122,11 @@ function TodoList() {
 
   return (
     <>
-      <h1>Todo List</h1>
+      <h1>Todo リスト</h1>
       <SearchAndButtton>
         <SearchForm
           type="text"
-          placeholder="Search todo..."
+          placeholder="検索をする..."
           onChange={event => {
             setSearchName(event.target.value)
           }}
@@ -140,7 +140,7 @@ function TodoList() {
         {todos.filter((val) => {
           if(searchName === "") {
             return val
-          } else if (val.name.toLowerCase().includes(searchName.toLowerCase())) {
+          } else if (val.name.includes(searchName)) {
             return val
           }
         }).map((val, key) => {
