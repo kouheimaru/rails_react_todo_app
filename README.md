@@ -1,11 +1,13 @@
 # todoアプリ（ポートフォリオ）
 公開URL  
-https://loving-bardeen-d94968.netlify.app/
+https://newreactrailsdemotodo.herokuapp.com/todos
 
 ## アプリの概要
 よくあるtodoアプリです。  
 
-## 使用技術一覧・選定理由
+## 使用技術一覧・選定理由  
+rails　フレームワーク  
+すばやくアプリを作れるため  
 react ライブラリ  
 モダンな技術であり、勉強するため採用。
 Vuetify UIフレームワーク  
